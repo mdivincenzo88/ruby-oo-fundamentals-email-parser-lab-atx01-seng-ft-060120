@@ -17,6 +17,6 @@ def initialize(email_addresses)
     email_addresses.split.collect do |address|
       address.split(',') 
   end
-  
+  .flatten
 end
 end
