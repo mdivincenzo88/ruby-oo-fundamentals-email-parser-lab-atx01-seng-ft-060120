@@ -18,3 +18,4 @@ def initialize(email_addresses)
       address.split(',') 
   end
 end
+end
