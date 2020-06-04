@@ -15,7 +15,8 @@ def initialize(email_addresses)
   
   def parse 
     email_addresses.split.collect do |address|
-      address.split('a') 
+      address.split(',') 
   end
+  
 end
 end
